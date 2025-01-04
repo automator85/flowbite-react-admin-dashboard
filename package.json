@@ -25,8 +25,11 @@
     "yarn": ">= 1"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.10",
     "apexcharts": "^3.36.3",
     "classnames": "^2.3.2",
+    "dotenv": "^16.4.7",
     "flowbite": "^1.5.5",
     "flowbite-react": "^0.3.7",
     "react-apexcharts": "^1.4.0",

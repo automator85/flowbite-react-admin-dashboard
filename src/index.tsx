@@ -1,6 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-
 import "./index.css";
 import theme from "./flowbite-theme";
 import { Flowbite } from "flowbite-react";
@@ -28,10 +27,7 @@ root.render(
           <Route path="/" element={<DashboardPage />} index />
           <Route path="/authentication/sign-in" element={<SignInPage />} />
           <Route path="/authentication/sign-up" element={<SignUpPage />} />
-          <Route
-            path="/e-commerce/products"
-            element={<EcommerceProductsPage />}
-          />
+          <Route path="/e-commerce/products" element={<EcommerceProductsPage />} />
           <Route path="/users/list" element={<UserListPage />} />
         </Routes>
       </BrowserRouter>
